@@ -1,0 +1,420 @@
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\Chat7.dll.config
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\Chat7.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\Chat7.pdb
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\csc.exe
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\csc.exe.config
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\csc.rsp
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\csi.exe
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\csi.rsp
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\System.AppContext.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\vbc.exe
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\vbc.exe.config
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\vbc.rsp
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\VBCSCompiler.exe
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\Antlr3.Runtime.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\BouncyCastle.Crypto.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\EntityFramework.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\EntityFramework.SqlServer.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\MailKit.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\MimeKit.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\Newtonsoft.Json.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\System.Buffers.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\System.Web.Helpers.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\System.Web.Mvc.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\System.Web.Optimization.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\System.Web.Razor.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\System.Web.WebPages.Deployment.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\System.Web.WebPages.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\System.Web.WebPages.Razor.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\WebGrease.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\BouncyCastle.Crypto.xml
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\EntityFramework.xml
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\EntityFramework.SqlServer.xml
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\MailKit.pdb
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\MailKit.xml
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\MimeKit.pdb
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\MimeKit.xml
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\System.Buffers.xml
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\System.Web.Helpers.xml
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\System.Web.Mvc.xml
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\System.Web.Optimization.xml
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\System.Web.Razor.xml
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\System.Web.WebPages.xml
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\System.Web.WebPages.Deployment.xml
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\System.Web.WebPages.Razor.xml
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\Newtonsoft.Json.xml
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\Antlr3.Runtime.pdb
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\obj\Release\Chat7.csproj.AssemblyReference.cache
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\obj\Release\Chat7.csproj.CoreCompileInputs.cache
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\obj\Release\Chat7.csproj.CopyComplete
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\obj\Release\Chat7.dll
+C:\Users\FreedomNxumalo\Documents\IOS\Chat7\Chat7\obj\Release\Chat7.pdb
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\Chat7.dll.config
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\Chat7.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\Chat7.pdb
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\csc.exe
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\csc.exe.config
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\csc.rsp
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\csi.exe
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\csi.rsp
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\System.AppContext.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\vbc.exe
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\vbc.exe.config
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\vbc.rsp
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\VBCSCompiler.exe
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\Antlr3.Runtime.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\BouncyCastle.Crypto.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\EntityFramework.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\EntityFramework.SqlServer.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\MailKit.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\MimeKit.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\Newtonsoft.Json.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\System.Buffers.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\System.Web.Helpers.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\System.Web.Mvc.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\System.Web.Optimization.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\System.Web.Razor.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\System.Web.WebPages.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\System.Web.WebPages.Razor.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\WebGrease.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\BouncyCastle.Crypto.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\EntityFramework.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\EntityFramework.SqlServer.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\MailKit.pdb
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\MailKit.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\MimeKit.pdb
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\MimeKit.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\System.Buffers.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\System.Web.Helpers.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\System.Web.Mvc.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\System.Web.Optimization.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\System.Web.Razor.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\System.Web.WebPages.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\System.Web.WebPages.Razor.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\Newtonsoft.Json.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\Antlr3.Runtime.pdb
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\obj\Release\Chat7.csproj.AssemblyReference.cache
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\obj\Release\Chat7.csproj.CoreCompileInputs.cache
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\obj\Release\Chat7.csproj.CopyComplete
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\obj\Release\Chat7.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7\Chat7\obj\Release\Chat7.pdb
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\Chat7.dll.config
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\Chat7.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\Chat7.pdb
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\csc.exe
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\csc.exe.config
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\csc.rsp
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\csi.exe
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\csi.rsp
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\System.AppContext.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\vbc.exe
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\vbc.exe.config
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\vbc.rsp
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\VBCSCompiler.exe
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\Antlr3.Runtime.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\BouncyCastle.Crypto.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\EntityFramework.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\EntityFramework.SqlServer.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\MailKit.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\MimeKit.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\Newtonsoft.Json.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Buffers.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.Helpers.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.Mvc.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.Optimization.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.Razor.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.WebPages.Deployment.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.WebPages.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.WebPages.Razor.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\WebGrease.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\BouncyCastle.Crypto.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\EntityFramework.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\EntityFramework.SqlServer.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\MailKit.pdb
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\MailKit.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\MimeKit.pdb
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\MimeKit.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Buffers.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.Helpers.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.Mvc.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.Optimization.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.Razor.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.WebPages.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.WebPages.Deployment.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.WebPages.Razor.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\Newtonsoft.Json.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\Antlr3.Runtime.pdb
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\obj\Release\Chat7.csproj.AssemblyReference.cache
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\obj\Release\Chat7.csproj.CoreCompileInputs.cache
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\obj\Release\Chat7.csproj.CopyComplete
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\obj\Release\Chat7.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7-20220406T091240Z-001\Chat7\Chat7\obj\Release\Chat7.pdb
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\Chat7.dll.config
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\Chat7.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\Chat7.pdb
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\csc.exe
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\csc.exe.config
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\csc.rsp
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\csi.exe
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\csi.rsp
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\System.AppContext.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\vbc.exe
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\vbc.exe.config
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\vbc.rsp
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\VBCSCompiler.exe
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\Antlr3.Runtime.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\BouncyCastle.Crypto.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\EntityFramework.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\EntityFramework.SqlServer.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\MailKit.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\MimeKit.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\Newtonsoft.Json.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Buffers.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.Helpers.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.Mvc.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.Optimization.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.Razor.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.WebPages.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.WebPages.Razor.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\WebGrease.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\BouncyCastle.Crypto.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\EntityFramework.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\EntityFramework.SqlServer.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\MailKit.pdb
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\MailKit.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\MimeKit.pdb
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\MimeKit.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Buffers.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.Helpers.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.Mvc.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.Optimization.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.Razor.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.WebPages.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\System.Web.WebPages.Razor.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\Newtonsoft.Json.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\Antlr3.Runtime.pdb
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\obj\Release\Chat7.csproj.AssemblyReference.cache
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\obj\Release\Chat7.csproj.CoreCompileInputs.cache
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\obj\Release\Chat7.csproj.CopyComplete
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\obj\Release\Chat7.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7-20220406T091240Z-001\Chat7\Chat7\obj\Release\Chat7.pdb
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\Chat7.dll.config
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\Chat7.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\Chat7.pdb
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\csc.exe
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\csc.exe.config
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\csc.rsp
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\csi.exe
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\csi.rsp
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\System.AppContext.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\vbc.exe
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\vbc.exe.config
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\vbc.rsp
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\VBCSCompiler.exe
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\Antlr3.Runtime.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\BouncyCastle.Crypto.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\EntityFramework.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\EntityFramework.SqlServer.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\MailKit.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\MimeKit.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\Newtonsoft.Json.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\System.Buffers.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\System.Web.Helpers.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\System.Web.Mvc.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\System.Web.Optimization.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\System.Web.Razor.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\System.Web.WebPages.Deployment.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\System.Web.WebPages.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\System.Web.WebPages.Razor.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\WebGrease.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\BouncyCastle.Crypto.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\EntityFramework.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\EntityFramework.SqlServer.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\MailKit.pdb
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\MailKit.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\MimeKit.pdb
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\MimeKit.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\System.Buffers.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\System.Web.Helpers.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\System.Web.Mvc.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\System.Web.Optimization.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\System.Web.Razor.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\System.Web.WebPages.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\System.Web.WebPages.Deployment.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\System.Web.WebPages.Razor.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\Newtonsoft.Json.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\Antlr3.Runtime.pdb
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\obj\Release\Chat7.csproj.AssemblyReference.cache
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\obj\Release\Chat7.csproj.CoreCompileInputs.cache
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\obj\Release\Chat7.csproj.CopyComplete
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\obj\Release\Chat7.dll
+C:\Users\FreedomNxumalo\Downloads\Chat7_20220523\Chat7\obj\Release\Chat7.pdb
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\Chat7.dll.config
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\Chat7.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\Chat7.pdb
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\csc.exe
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\csc.exe.config
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\csc.rsp
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\csi.exe
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\csi.rsp
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\System.AppContext.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\vbc.exe
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\vbc.exe.config
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\vbc.rsp
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\VBCSCompiler.exe
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\Antlr3.Runtime.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\BouncyCastle.Crypto.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\EntityFramework.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\EntityFramework.SqlServer.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\MailKit.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\MimeKit.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\Newtonsoft.Json.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\System.Buffers.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\System.Web.Helpers.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\System.Web.Mvc.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\System.Web.Optimization.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\System.Web.Razor.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\System.Web.WebPages.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\System.Web.WebPages.Razor.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\WebGrease.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\BouncyCastle.Crypto.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\EntityFramework.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\EntityFramework.SqlServer.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\MailKit.pdb
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\MailKit.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\MimeKit.pdb
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\MimeKit.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\System.Buffers.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\System.Web.Helpers.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\System.Web.Mvc.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\System.Web.Optimization.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\System.Web.Razor.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\System.Web.WebPages.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\System.Web.WebPages.Razor.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\Newtonsoft.Json.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\Antlr3.Runtime.pdb
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\obj\Release\Chat7.csproj.AssemblyReference.cache
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\obj\Release\Chat7.csproj.CoreCompileInputs.cache
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\obj\Release\Chat7.csproj.CopyComplete
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\obj\Release\Chat7.dll
+C:\Users\kgank\OneDrive\Desktop\New folder\7chats live\Chat7_20220523\Chat7\obj\Release\Chat7.pdb

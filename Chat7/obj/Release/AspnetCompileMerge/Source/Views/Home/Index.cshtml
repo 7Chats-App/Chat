@@ -1,0 +1,152 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head -->
+<!-- Mirrored from offsetcode.com/themes/messenger/2.1.0/light/signin.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Mar 2022 08:08:56 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, shrink-to-fit=no, viewport-fit=cover">
+    <title>7 Chats</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="~/assets/img/favicon/favicon.ico" type="image/x-icon">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700" rel="stylesheet">
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="~/assets/css/template.bundle.css">
+</head>
+
+<body class="bg-light">
+
+    <div class="container">
+        <div class="row align-items-center justify-content-center min-vh-100 gx-0">
+
+            <div class="col-12 col-md-5 col-lg-4">
+                <div class="card card-shadow border-0">
+                    <div class="card-body">
+                        <div class="row g-6">
+                            <div class="col-12">
+                                <div class="text-center">
+                                    <h3 class="fw-bold mb-2">Sign In</h3>
+                                    <p>Login to your account</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Email">
+                                    <label for="signin-email">Email</label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="password" class="form-control" id="password" placeholder="Password">
+                                    <label for="signin-password">Password</label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <button class="btn btn-block btn-lg btn-primary w-100" type="button" id="login">Sign In</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text -->
+                <div class="text-center mt-8">
+                    <p>Don't have an account yet? <a href="@Url.Action("Signup", "Home")">Sign up</a></p>
+                    <p><a href="@Url.Action("ForgotPassword", "Home")">Forgot Password?</a></p>
+                </div>
+            </div>
+        </div> <!-- / .row -->
+    </div>
+
+    <!-- Scripts -->
+    <script src="~/assets/js/vendor.js"></script>
+    <script src="~/assets/js/template.js"></script>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+</body>
+
+<!-- Mirrored from offsetcode.com/themes/messenger/2.1.0/light/signin.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Mar 2022 08:08:56 GMT -->
+</html>
+<script>
+ 
+
+    $("#login").click(function ()
+    {
+        var SignUp = new Object();
+        SignUp.email = $('#email').val();
+        SignUp.password = $('#password').val();
+
+
+         if (SignUp.email == "")
+         {
+            toastr.warning("Please enter email");
+            return false;
+        }
+
+         if (SignUp.password == "")
+         {
+            toastr.warning("Please enter Password");
+            return false;
+        }
+        if (validateEmail(SignUp.email) == false)
+        {
+            toastr.warning("Please enter valid email address");
+            return false;
+        }
+
+        if (SignUp != null)
+        {
+                    toastr.info("Login.........");
+                    $.ajax({
+                        type: "POST",
+                        url: "@(Url.Action("Login", "Home"))",
+                        data: JSON.stringify(SignUp),
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        success: function (response)
+                        {
+                            if (response == "successful")
+                            {
+                                toastr.clear();
+                                toastr.success("successfully login");
+                                $("#email1").empty();
+                                $("#password1").empty();
+                                window.location.href = "@(Url.Action("Chat", "Home"))";
+                            }
+                            else
+                            {
+                                toastr.clear();
+                                toastr.warning(response);
+                            }
+                        },
+                        failure: function (response)
+                        {
+                            toastr.clear();
+                            toastr.warning(response.responseText);
+                        },
+                        error: function (response) {
+                            toastr.clear();
+                            toastr.warning(response.responseText);
+                        }
+                    });
+                }
+            });
+
+            function validateEmail(email) {
+                var emailReg = /^([\w-\.]+@@([\w-]+\.)+[\w-]{2,4})?$/;
+                return emailReg.test(email);
+            }
+
+</script>

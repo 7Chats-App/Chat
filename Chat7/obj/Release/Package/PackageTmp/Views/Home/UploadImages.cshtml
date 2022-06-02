@@ -1,0 +1,86 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, shrink-to-fit=no, viewport-fit=cover">
+    <title>7Chats| Chat App</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="~/assets/img/favicon/Logo.jpg" type="image/x-icon">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700" rel="stylesheet">
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="~/assets/css/template.bundle.css">
+</head>
+<!-- Body -->
+<body class="bg-light">
+
+    <div class="container">
+        <div class="row align-items-center justify-content-center min-vh-100 gx-0">
+
+            <div class="col-12 col-md-5 col-lg-4">
+                <div class="card card-shadow border-0">
+                    <div class="card-body">
+                        <div class="row g-6">
+                            <div class="col-12">
+                                <div class="text-center">
+                                    <img src="~/assets/img/avatars/Logo.jpg">
+                                    <h3 class="fw-bold mb-2">Upload Images</h3>
+                                    <p>Please upload your images here</p>
+                                </div>
+                            </div>
+                            @using (Html.BeginForm("UploadImages", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                            {
+                        
+                              <div class="col-12">
+                                   <div class="form-floating">
+                                        <p>Click "Choose File" button to upload a file:</p>
+                                        
+                                       <input type="file" name="postedFiles" multiple="multiple" class="btn btn-default" required />
+                                        <br />
+                                        
+                                        <input type="submit" value="Upload" style="background-color:#32E355" class="btn btn-info" />
+                                        <br />
+                                    </div>
+                              </div>
+
+                                        @*<div class="col-12">
+                        <button class="btn btn-block btn-lg btn-primary w-100" type="submit" id="done">Save</button>
+                    </div>*@
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+
+                <!-- Text -->
+                @*<div class="text-center mt-8">
+                    <p>Already have an account? <a href="@Url.Action("Index", "Home")">Sign in</a></p>
+                </div>*@
+
+            </div>
+        </div> <!-- / End of .row -->
+    </div>
+
+    <!-- Scripts -->
+    <script src="~/assets/js/vendor.js"></script>
+    <script src="~/assets/js/template.js"></script>
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+</body>
+
+</html>
+<script>
+    $("#done").click(function ()
+    {
+       window.location.href = "@(Url.Action("Chat", "Home"))";
+    });
+
+</script>

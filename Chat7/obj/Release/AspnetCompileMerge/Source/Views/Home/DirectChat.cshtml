@@ -1,0 +1,349 @@
+﻿@model Chat7.Controllers.UserModel
+@{
+    ViewBag.Title = "DirectChat";
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, shrink-to-fit=no, viewport-fit=cover">
+    <title>7 Chat</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="~/assets/img/favicon/favicon.ico" type="image/x-icon">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700" rel="stylesheet">
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="~/assets/css/template.bundle.css">
+    <link rel="stylesheet" href="~/assets/css/template.dark.bundle.css" media="(prefers-color-scheme: dark)">
+</head>
+
+<body>
+    <!-- Layout -->
+    <div class="layout overflow-hidden">
+        <nav class="navigation d-flex flex-column text-center navbar navbar-light hide-scrollbar">
+ 
+                <li class="nav-item d-none d-xl-block flex-xl-grow-1">
+                    <a class="nav-link py-0 py-lg-8" id="tablogout" href="#" title="Back" data-bs-toggle="tab" role="tab">
+                        <div class="icon icon-xl ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+                        </div>
+                    </a>
+                </li>
+          
+        </nav>
+
+        <!-- Chat -->
+        <main class="main is-visible" data-dropzone-area="">
+
+            <div class="container h-100">
+
+                <div class="d-flex flex-column h-100 position-relative">
+                    <!-- Chat: Header -->
+                    <div class="chat-header border-bottom py-4 py-lg-7">
+                        <div class="row align-items-center">
+
+                            <div class="col-8 col-xl-12">
+                                <div class="row align-items-center text-center text-xl-start">
+                                    <!-- Title -->
+                                    <div class="col-12 col-xl-6">
+                                        @using (Html.BeginForm())
+                                        {
+                                            @Html.HiddenFor(model => model.id)
+                                            <div class="row align-items-center gx-5">
+                                                <div class="col-auto">
+                                                    <div class="avatar">
+                                                        @{
+                                                            var image = "data:image/png;base64," + @Model.image;
+                                                        }
+                                                        <img class="avatar-img" src=@image alt="">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col overflow-hidden">
+                                                    <h5 class="text-truncate"> @Model.name</h5>
+                                                    @*<p class="text-truncate">is typing<span class='typing-dots'><span>.</span><span>.</span><span>.</span></span></p>*@
+                                                </div>
+
+                                            </div>
+
+                                        }
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Chat: Header -->
+                    <!-- Chat: Content -->
+                    <div class="chat-body hide-scrollbar flex-1 h-100">
+                        <div class="chat-body-inner">
+                            <div class="py-6 py-lg-12">
+                                @{
+
+                                    var data = Model.MessageData;
+                                }
+                                @foreach (var s in data)
+                                {
+
+
+                                    <div class="message-divider">
+                                        <small class="text-muted">@s.date</small>
+                                    </div>
+                                    if (s.main == 1)
+                                    {
+
+
+                                        <div class="message message-out">
+                                            @*<a href="#" data-bs-toggle="modal" data-bs-target="#modal-profile" class="avatar avatar-responsive">
+                        <img class="avatar-img" src="assets/img/avatars/1.jpg" alt="">
+                    </a>*@
+
+                                            <div class="message-inner">
+                                                <div class="message-body">
+                                                    <div class="message-content">
+                                                        @{
+                                                            string message = s.message;
+                                                            if (message == "Click to chat")
+                                                            {
+                                                                message = "You are now connect , you can start chatting.";
+                                                            }
+
+                                                        }
+                                                        <div class="message-text">
+                                                            <p>@message</p>
+                                                        </div>
+
+                                                        <!-- Dropdown -->
+                                                        @*<div class="message-action">
+                                    <div class="dropdown">
+                                        <a class="icon text-muted" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
+                                        </a>
+
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                                    <span class="me-auto">Edit</span>
+                                                    <div class="icon">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-3"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                                    <span class="me-auto">Reply</span>
+                                                    <div class="icon">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-up-left"><polyline points="9 14 4 9 9 4"></polyline><path d="M20 20v-7a4 4 0 0 0-4-4H4"></path></svg>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item d-flex align-items-center text-danger" href="#">
+                                                    <span class="me-auto">Delete</span>
+                                                    <div class="icon">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>*@
+                                                    </div>
+                                                </div>
+
+                                                @*<div class="message-footer">
+                            <span class="extra-small text-muted">08:45 PM</span>
+                        </div>*@
+                                            </div>
+                                        </div>
+
+                                    }
+                                    else
+                                    {
+
+
+                                        <!-- Message -->
+                                        <div class="message">
+                                            @*<a href="#" data-bs-toggle="modal" data-bs-target="#modal-user-profile" class="avatar avatar-responsive">
+                        <img class="avatar-img" src="/assets/img/avatars/2.jpg" alt="">
+                    </a>*@
+                                            <div class="message-inner">
+                                                <div class="message-body">
+                                                    <div class="message-content">
+                                                        <div class="message-text">
+                                                            @{
+                                                                string message = s.message;
+                                                                if (message == "Click to chat")
+                                                                {
+                                                                    message = "You are now connect , you can start chatting.";
+                                                                }
+
+                                                            }
+                                                            <p>@message</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br /> <br />
+
+                                    }
+
+                                }
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <br /> <br />
+                    <!-- Chat: Content -->
+                    <!-- Chat: Footer -->
+                    <div class="chat-footer pb-3 pb-lg-7 position-absolute bottom-0 start-0">
+                        <!-- Chat: Files -->
+                        <div class="dz-preview bg-dark" id="dz-preview-row" data-horizontal-scroll="">
+                        </div>
+                        <!-- Chat: Files -->
+                        <!-- Chat: Form -->
+                        <div class="chat-form rounded-pill bg-dark" data-emoji-form="">
+                            <div class="row align-items-center gx-0">
+                                @*<div class="col-auto">
+                                    <a href="#" class="btn btn-icon btn-link text-body rounded-circle" id="dz-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-paperclip"><path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"></path></svg>
+                                    </a>
+                                </div>*@
+
+                                <div class="col">
+                                    <div class="input-group">
+                                        <textarea class="form-control px-0" placeholder="Type your message..." rows="1" data-emoji-input="" data-autosize="true" id="messagetext"></textarea>
+
+                                        @*<a href="#" class="input-group-text text-body pe-0" data-emoji-btn="">
+                                            <span class="icon icon-lg">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-smile"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg>
+                                            </span>
+                                        </a>*@
+                                    </div>
+                                </div>
+
+                                <div class="col-auto">
+                                    <button class="btn btn-icon btn-primary rounded-circle ms-5" id="sendText">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-send"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Chat: Form -->
+                    </div>
+                    <!-- Chat: Footer -->
+                </div>
+
+
+            </div>
+        </main>
+        <!-- Chat -->
+        <!-- Chat: Info -->
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="~/assets/js/vendor.js"></script>
+    <script src="~/assets/js/template.js"></script>
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+</body>
+
+<!-- Mirrored from offsetcode.com/themes/messenger/2.1.0/chat-direct.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Mar 2022 08:07:31 GMT -->
+</html>
+
+<script>
+
+
+
+    $("#tablogout").click(function ()
+    {
+     window.location.href = "@(Url.Action("Chat", "Home"))";
+
+    })
+
+    $("#sendText").click(function ()
+    {
+
+        var SignUp = new Object();
+        SignUp.email = $('#messagetext').val();
+        SignUp.name = $('#id').val();
+
+         if (SignUp.email == "")
+         {
+            toastr.warning("Please enter message");
+            return false;
+        }
+        if (SignUp != null)
+        {
+                   /* toastr.info("Login.........");*/
+                    $.ajax({
+                        type: "POST",
+                        url: "@(Url.Action("SendTest", "Home"))",
+                        data: JSON.stringify(SignUp),
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        success: function (response)
+                        {
+                            if (response == "successful")
+                            {
+                                //toastr.clear();
+                                //toastr.success("successfully login");
+                                $("#email1").empty();
+                               window.top.location.reload(true);
+                                @*window.location.href = "@(Url.Action("Chat", "Home"))";*@
+                            }
+                            else
+                            {
+                                toastr.clear();
+                                toastr.warning(response);
+                            }
+                        },
+                        failure: function (response)
+                        {
+                            toastr.clear();
+                            toastr.warning(response.responseText);
+                        },
+                        error: function (response) {
+                            toastr.clear();
+                            toastr.warning(response.responseText);
+                        }
+                    });
+                }
+            });
+
+    window.onload = function ()
+    {
+        var reloading = sessionStorage.getItem("reloading");
+        if (reloading) {
+            sessionStorage.removeItem("reloading");
+            myFunction();
+        }
+    }
+
+    function reloadP() {
+        sessionStorage.setItem("reloading", "true");
+        document.location.reload();
+    }
+</script>

@@ -1,0 +1,141 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, shrink-to-fit=no, viewport-fit=cover">
+    <title>7Chats| Chat App</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="~/assets/img/favicon/Logo.jpg" type="image/x-icon">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700" rel="stylesheet">
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="~/assets/css/template.bundle.css">
+</head>
+
+<!-- Body -->
+<body>
+    <!-- Layout -->
+    <div class="layout overflow-hidden">
+        <!-- Navigation -->
+        <nav class="navigation d-flex flex-column text-center navbar navbar-light hide-scrollbar">
+               <!-- Nav items -->
+            <ul class="d-flex nav navbar-nav flex-row flex-xl-column flex-grow-1 justify-content-between justify-content-xl-center align-items-center w-100 py-4 py-lg-2 px-lg-3" role="tablist">
+                      
+                <!-- Profile -->
+                <li class="nav-item">
+                    <a href="#" class="nav-link p-0 mt-lg-2" data-bs-toggle="modal" data-bs-target="#modal-profile">
+                        <div class="avatar  avatar-xs d-xl-none">
+                            <img class="avatar-img" alt="" src='' id="profile1" width="500px" height="300px">   
+                        </div>
+
+                        <div class="avatar  mx-auto d-none d-xl-block">
+                            <img class="avatar-img" alt="" src='' id="profile" width="500px" height="300px">  
+                        </div>
+                    </a>
+                </li>
+
+                <!-- Friends -->
+                <li class="nav-item">
+                    <a class="nav-link py-0 py-lg-8" id="tab-friends" href="#tab-content-friends" title="Friends" data-bs-toggle="tab" role="tab">
+                        <div class="icon icon-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                        </div>
+                    </a>
+                </li>
+
+                <!-- Chats -->
+                <li class="nav-item">
+                    <a class="nav-link  py-0 py-lg-8" id="tab-chats" href="#tab-content-chats" title="Chats" data-bs-toggle="tab" role="tab">
+                        <div class="icon icon-xl ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                        </div>
+                    </a>
+                </li>
+
+                <!-- Notification -->
+                <li class="nav-item">
+                    <a class="nav-link py-0 py-lg-8" id="tab-notifications" href="#tab-content-notifications" title="Invites" data-bs-toggle="tab" role="tab">
+                        <div class="icon icon-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+                        </div>
+                    </a>
+                </li>
+
+                <!-- Logout -->
+                <li class="nav-item d-none d-xl-block flex-xl-grow-1">
+                    <a class="nav-link py-0 py-lg-8" id="tablogout" href="#tab-content-logout" title="logout" data-bs-toggle="tab" role="tab">
+                        <div class="icon icon-xl ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        @RenderBody()
+    </div>
+
+    <!-- Scripts -->
+    <script src="~/assets/js/vendor.js"></script>
+    <script src="~/assets/js/template.js"></script>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+</body>
+
+</html>
+
+<script type="text/javascript">
+
+    $(document).ready(function ()
+    {
+     /*   toastr.info("loading.........");*/
+            $.ajax({
+                type: "POST",
+                url: "@(Url.Action("LoadData", "Home"))",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response)
+                {
+                     
+                    if (response.success == "successful")
+                    {
+                        var profile = document.getElementById('profile');
+                        var profile1 = document.getElementById('profile1');
+                        profile.src = "data:image/png;base64," + response.data.image;
+                        profile1.src = "data:image/png;base64," + response.data.image;
+                    }
+                    else
+                    {
+                        toastr.clear();
+                        toastr.warning(response);
+                    }
+                },
+                failure: function (response)
+                {
+                    toastr.clear();
+                    toastr.warning(response.responseText);
+                },
+                error: function (response)
+                {
+                    toastr.clear();
+                    toastr.warning(response.responseText);
+                }
+            });
+
+
+    });
+
+    $("#tablogout").click(function ()
+    {
+        window.location.href = "@(Url.Action("Index", "Home"))";
+    });
+
+
+
+</script>

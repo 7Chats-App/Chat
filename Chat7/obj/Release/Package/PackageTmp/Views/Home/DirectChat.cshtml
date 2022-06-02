@@ -1,0 +1,324 @@
+﻿@model Chat7.Controllers.UserModel
+@{
+    ViewBag.Title = "DirectChat";
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, shrink-to-fit=no, viewport-fit=cover">
+    <title>7Chats| Chat App</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="~/assets/img/favicon/Logo.jpg" type="image/x-icon">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700" rel="stylesheet">
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="~/assets/css/template.bundle.css">
+    <link rel="stylesheet" href="~/assets/css/template.dark.bundle.css" media="(prefers-color-scheme: dark)">
+</head>
+<!-- body -->
+<body>
+    <!-- Layout -->
+    <div class="layout overflow-hidden">
+        <nav class="navigation d-flex flex-column text-center navbar navbar-light hide-scrollbar">
+
+            <!-- Close button-->
+            <li class="nav-item d-none d-xl-block flex-xl-grow-1">
+                <a class="nav-link py-0 py-lg-8" id="tablogout" href="#" title="Back" data-bs-toggle="tab" role="tab">
+                    <div class="icon icon-xl ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+                    </div>
+                </a>
+            </li>
+
+        </nav>
+
+        <!-- Chat -->
+        <main class="main is-visible" data-dropzone-area="">
+            @*<input type="button" class="nav-link py-0 py-lg-8" id="tablogout" title="Back" data-bs-toggle="tab" role="tab" />*@
+            <div class="container h-100">
+                <div class="d-flex flex-column h-100 position-relative">
+
+                    <!-- Chat: Header -->
+                    <div class="chat-header border-bottom py-4 py-lg-7">
+                        <div class="row align-items-center">
+                            <!-- Mobile: close -->
+                            <div class="col-2 d-xl-none">
+                                <a class="icon1 icon-lg text-muted" id="tablogout1" href="#" data-toggle-chat="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                                </a>
+                            </div>
+                            <!-- Content -->
+                            <div class="col-8 col-xl-12">
+                                <div class="row align-items-center text-center text-xl-start">
+
+                                    <!-- Title -->
+                                    <div class="col-12 col-xl-6">
+                                        @using (Html.BeginForm())
+                                        {
+                                            @Html.HiddenFor(model => model.id)
+                                            <div class="row align-items-center gx-5">
+                                                <div class="col-auto">
+                                                    <div class="avatar">
+                                                        @{
+                                                            var image = "data:image/png;base64," + @Model.image;
+                                                        }
+                                                        <img class="avatar-img" src=@image alt="">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col overflow-hidden">
+                                                    <h5 class="text-truncate"> @Model.name</h5>
+                                                    @*<p class="text-truncate">is typing<span class='typing-dots'><span>.</span><span>.</span><span>.</span></span></p>*@
+                                                </div>
+
+                                            </div>
+
+                                        }
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Chat: Header -->
+                    <!-- Chat: Content -->
+                    <div class="chat-body hide-scrollbar flex-1 h-100">
+                        <div class="chat-body-inner" style="padding-bottom: 71px">
+                            <div class="py-6 py-lg-12">
+                                @{
+
+                                    var data = Model.MessageData;
+                                    string today = "";
+
+                                }
+                                @foreach (var s in data)
+
+                                {
+
+                                    if (today == "")
+                                    {
+                                        <!-- message -->
+                                        <div class="message-divider">
+                                            <small class="text-muted">@s.date</small>
+
+                                        </div>
+                                        today = s.date;
+                                    }
+                                    else if (today == s.date)
+                                    {
+                                        today = s.date;
+                                    }
+                                    else
+                                    {
+                                        <!-- message -->
+                                        <div class="message-divider">
+                                            <small class="text-muted">@s.date</small>
+
+                                        </div>
+                                        today = s.date;
+
+                                    }
+
+
+
+                                    if (s.main == 1)
+                                    {
+
+                                        <div class="message message-out">
+
+                                            <div class="message-inner">
+                                                <div class="message-body">
+                                                    <div class="message-content">
+                                                        @{
+                                                            string message = s.message;
+                                                            if (message == "Click to chat")
+                                                            {
+                                                                message = "You are now connected , you can start chatting.";
+                                                            }
+
+                                                        }
+                                                        <div class="message-text">
+                                                            <p>@message</p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="message-footer">
+                                                    <span class="extra-small text-muted">@s.time</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    }
+                                    else
+                                    {
+
+                                        <!-- Message -->
+                                        <div class="message">
+                                            <div class="message-inner">
+                                                <div class="message-body">
+                                                    <div class="message-content">
+                                                        <div class="message-text">
+                                                            @{
+                                                                string message = s.message;
+                                                                if (message == "Click to chat")
+                                                                {
+                                                                    message = "You are now connected , you can start chatting.";
+                                                                }
+
+                                                            }
+                                                            <p>@message</p>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="message-footer">
+                                                        <span class="extra-small text-muted">@s.time</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    }
+
+                                }
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <br /> <br />
+                    <!-- Chat: Content -->
+                    <!-- Chat: Footer -->
+                    <div class="chat-footer pb-3 pb-lg-7 position-absolute bottom-0 start-0">
+                        <!-- Chat: Files -->
+                        <div class="dz-preview bg-dark" id="dz-preview-row" data-horizontal-scroll="">
+                        </div>
+                        <!-- Chat: Files -->
+                        <!-- Chat: Form -->
+                        <div class="chat-form rounded-pill bg-dark" data-emoji-form="">
+                            <div class="row align-items-center gx-0">
+
+                                <div class="col">
+                                    <div class="input-group">
+                                        <textarea class="form-control px-0" placeholder="Type your message..." rows="1" data-emoji-input="" data-autosize="true" id="messagetext"></textarea>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-auto">
+                                    <button class="btn btn-icon btn-primary rounded-circle ms-5" id="sendText">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-send"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Chat: Form -->
+                    </div>
+                    <!-- Chat: Footer -->
+                </div>
+
+            </div>
+        </main>
+        <!-- Chat -->
+        <!-- Chat: Info -->
+    </div>
+
+    <!-- Scripts -->
+    <script src="~/assets/js/vendor.js"></script>
+    <script src="~/assets/js/template.js"></script>
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+</body>
+
+</html>
+
+<script>
+
+
+    //Pc close
+    $("#tablogout").click(function () {
+
+        window.location.href = "@(Url.Action("Chat", "Home"))";
+
+    });
+
+    //Mobile close
+      $("#tablogout1").click(function () {
+
+        window.location.href = "@(Url.Action("Chat", "Home"))";
+
+    });
+
+
+    $("#sendText").click(function ()
+    {
+
+        var SignUp = new Object();
+        SignUp.email = $('#messagetext').val();
+        SignUp.name = $('#id').val();
+
+         if (SignUp.email == "")
+         {
+            toastr.warning("Please enter message");
+            return false;
+        }
+        if (SignUp != null)
+        {
+                   /* toastr.info("Login.........");*/
+                    $.ajax({
+                        type: "POST",
+                        url: "@(Url.Action("SendTest", "Home"))",
+                        data: JSON.stringify(SignUp),
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        success: function (response)
+                        {
+                            if (response == "successful")
+                            {
+                                //toastr.clear();
+                                //toastr.success("successfully login");
+                                $("#email1").empty();
+                               window.top.location.reload(true);
+                                @*window.location.href = "@(Url.Action("Chat", "Home"))";*@
+                            }
+                            else
+                            {
+                                toastr.clear();
+                                toastr.warning(response);
+                            }
+                        },
+                        failure: function (response)
+                        {
+                            toastr.clear();
+                            toastr.warning(response.responseText);
+                        },
+                        error: function (response) {
+                            toastr.clear();
+                            toastr.warning(response.responseText);
+                        }
+                    });
+                }
+            });
+
+    window.onload = function ()
+    {
+        var reloading = sessionStorage.getItem("reloading");
+        if (reloading) {
+            sessionStorage.removeItem("reloading");
+            myFunction();
+        }
+    }
+
+    function reloadP() {
+        sessionStorage.setItem("reloading", "true");
+        document.location.reload();
+    }
+</script>
